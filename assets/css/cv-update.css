@@ -67,3 +67,7 @@ summary:focus-visible {
     max-width: calc(100% - 32px);
   }
 }
+
+/* Consistent portrait framing in the existing sidebar and About section. */
+#header .profile .cv-portrait { width: 120px; height: 120px; object-fit: cover; object-position: 50% 20%; }
+#about .cv-portrait { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 50% 20%; }
